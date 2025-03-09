@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .profile-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            transition: background 0.3s;
+        }
+
+        .btn-linkedin { background-color: #0077b5; }
+        .btn-x { background-color: #000; border: 1px solid #fff; }
+        .btn-instagram { background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); }
+        .btn-github { background-color: #000; border: 1px solid #fff; }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/CVpp.jpg" alt="Profile Picture" class="profile-img" />
+    <h1>Barış Ceyhun</h1>
+    <p>Karabük Üniversitesi 2. sınıf Bilgisayar Mühendisliği öğrencisiyim. Kendimi yazılım alanında geliştirmek için çabalıyorum.</p>
+
+    <a href="https://www.linkedin.com/in/barış-ceyhun-6446b2305/" class="btn btn-linkedin" target="_blank">LinkedIn</a>
+    <a href="https://x.com/baris_ceyhun" class="btn btn-x" target="_blank">X</a>
+    <a href="https://www.instagram.com/barisceyhunn/" class="btn btn-instagram" target="_blank">Instagram</a>
+    <a href="https://github.com/BarisCeyhun26" class="btn btn-github" target="_blank">GitHub</a>
+</body>
+</html>
